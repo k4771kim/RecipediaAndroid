@@ -31,8 +31,8 @@ This application is made for participation in the MAFRA's contest exhibit.
 
 
 
-### Develop by 김보균,모진섭,황인선 
+### Develop by 김보균,서혜민,송민
 
-The source code that 'Recipedia' the android application(2015. 9.)
+The source code that 'FoRoom' the android application(2016. 2.)
 
-[1]:https://play.google.com/store/apps/details?id=seop.gyun.recipedia&hl=ko
+[1]:https://play.google.com/store/apps/details?id=com.forroom.suhyemin.kimbogyun.songmin&hl=ko
