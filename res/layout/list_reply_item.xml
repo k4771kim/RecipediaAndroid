@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/profile_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:fadeDuration="300"
+        fresco:failureImage="@drawable/ic_launcher"
+        fresco:failureImageScaleType="centerInside"
+        fresco:placeholderImage="@drawable/ic_launcher"
+        fresco:placeholderImageScaleType="none"
+        fresco:retryImage="@drawable/ic_launcher"
+        fresco:retryImageScaleType="centerCrop"
+        fresco:roundAsCircle="true"
+        fresco:roundingBorderColor="#ffffff"
+        fresco:roundingBorderWidth="2dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/profile_img"
+        android:layout_toRightOf="@id/profile_img"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/reply_date_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303030"
+            android:gravity="right|end"
+            android:text="2015.09.22" />
+        <TextView
+            android:id="@+id/reply_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#101010"
+            android:text="댓글내용입니다." />
+    </LinearLayout>
+
+</RelativeLayout>

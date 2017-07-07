@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="Seop.Gyun.Recipedia.RecipediaContainer" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_launcher"
+        android:title="제목"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/action_survey"
+        android:title="▶"
+        app:showAsAction="always"/>
+
+</menu>
