@@ -1,4 +1,6 @@
 
+# Recipedia(Android)
+
 #### 이 어플리케이션은 농림축산식품부 공공데이터를 활용한 레시피 어플리케이션입니다.
 This application is recipe Application using MAFRA's public data.
 This Server is made using Node.js, MySQL.
@@ -11,8 +13,7 @@ This Server is made using Node.js, MySQL.
 >
 > 3.  Market Information for Purchase Materials
 >
-
-
+<br />
 농림축산식품부 공공데이터 활용 경진대회 공모전 참가를 위해 만들어진 어플리케이션입니다.
 
 This application is made for participation in the MAFRA's contest exhibit.
